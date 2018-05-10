@@ -11,7 +11,7 @@ $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "<DB PASS>";
 $dbname = "<DB NAME>";
-$tbname = "presence";
+$tbname = "Presence";
 $tbmodu = "oswhoisonline_settings";
 
 /* SIMULATOR CONFIG */
