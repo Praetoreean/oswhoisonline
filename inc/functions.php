@@ -286,7 +286,7 @@ function get_user_name($db, $user_uuid)
 {
     $sql = $db->prepare("
         SELECT FirstName, LastName
-        FROM useraccounts
+        FROM UserAccounts
         WHERE PrincipalID = '".$user_uuid."'
     ");
 
